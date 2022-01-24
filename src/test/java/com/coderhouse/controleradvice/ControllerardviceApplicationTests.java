@@ -1,4 +1,4 @@
-package com.coderhouse.controllerardvice;
+package com.coderhouse.controleradvice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

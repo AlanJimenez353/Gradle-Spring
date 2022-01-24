@@ -7,7 +7,7 @@
         </Console>
     </Appenders>
     <Loggers>
-        <Logger name="com.coderhouse.controllerardvice" level="DEBUG"/>
+        <Logger name="com.coderhouse.controleradvice" level="DEBUG"/>
         <Root level="INFO">
             <AppenderRef ref="Console"/>
         </Root>

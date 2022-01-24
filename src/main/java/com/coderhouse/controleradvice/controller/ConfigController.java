@@ -1,16 +1,14 @@
-package com.coderhouse.controllerardvice.controller;
+package com.coderhouse.controleradvice.controller;
 
-import com.coderhouse.controllerardvice.domain.UserConfig;
-import com.coderhouse.controllerardvice.services.ConfigService;
+import com.coderhouse.controleradvice.domain.UserConfig;
+import com.coderhouse.controleradvice.services.ConfigService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
 
-@RestController
 @RequestMapping("api/config")
 public class ConfigController {
 
@@ -24,5 +22,6 @@ public class ConfigController {
         configService.updateUserConfig(userConfig.getRol());
         return userConfig;
     }
+
 
 }

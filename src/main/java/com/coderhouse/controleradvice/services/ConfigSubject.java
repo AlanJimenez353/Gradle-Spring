@@ -1,6 +1,6 @@
-package com.coderhouse.controllerardvice.services;
+package com.coderhouse.controleradvice.services;
 
-import com.coderhouse.controllerardvice.utils.ConfigObserver;
+import com.coderhouse.controleradvice.utils.ConfigObserver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;

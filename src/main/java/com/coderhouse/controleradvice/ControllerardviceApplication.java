@@ -1,4 +1,4 @@
-package com.coderhouse.controllerardvice;
+package com.coderhouse.controleradvice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,5 @@
-package com.coderhouse.controllerardvice.domain;
+package com.coderhouse.controleradvice.domain;
+
 
 public class UserConfig {
     private String rol;

@@ -1,4 +1,4 @@
-package com.coderhouse.controllerardvice.utils;
+package com.coderhouse.controleradvice.utils;
 
 public interface ConfigObserver {
 
