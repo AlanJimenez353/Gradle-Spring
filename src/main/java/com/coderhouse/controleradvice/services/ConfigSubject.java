@@ -14,7 +14,7 @@ public class ConfigSubject {
 
     private static final Logger logger= LoggerFactory.getLogger(ConfigSubject.class);
      private final Set<ConfigObserver> observers;
-
+//
     public ConfigSubject() {
     observers= Collections.synchronizedSet(new HashSet<>());
     }
